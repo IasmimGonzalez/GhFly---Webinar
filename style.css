@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header itens*/
+#HeaderTop {
+    display: flex;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+}
+#imgHeaderTop {
+
+    align-self: center;
+    width: auto;
+    max-width: 100%;
+    margin: 20px auto;  
+}
+#headerContainer {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    background-image: url("./images/banner-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container-flex{
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    justify-content:center;
+}
+#divHeaderTitle{
+    position: relative;
+    margin: 40px;
+    width: 55%;
+    float: left;
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+#txtFirstTitle{
+    padding-left: 15px;
+    font-size: 2.0em;
+    margin: 20px;
+}
+#txtFirstSubtitle{
+    padding-left: 15px;
+    margin: 20px;
+    font-size: 22pt;
+    color: #0096db;
+}
+#txtSecondSubtitle{
+    padding-left: 15px;
+    margin: 20px;
+    font-size: 18pt;
+}
+#txtThirdSubtitle {
+    padding-left: 15px;
+    margin: 20px 20px 50px 20px;
+    font-size: 16pt;
+}
+#hr{
+    margin: 30px 30px;
+}
+#ImgArrow {
+    float: right;
+    margin-right: 50px;
+}
+#divHeaderForm {
+    position: relative;
+    width: 25%;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 6px;
+    padding: 20px;
+    margin: 5% ;
+}
+#txtTitleForm {
+    position: relative;
+    padding: 2px;
+    color: #ffffff;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14pt;
+    text-align: center;
+}
+#txtName, #txtSize, #txtEmail, #txtTel, #txtPosition, #ddlCountry {
+    position: relative;
+    width: 95%;
+    height: 30px;
+    margin: 12px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13pt;
+    border: none;
+}
+#btnHeaderForm {
+    position: relative;
+    background-color: #f36d5b;
+    color: #ffffff;
+    border: none;
+    font-family: 'Poppins', sans-serif; 
+    width: 36%;
+    padding:5px;
+    text-align: center;    
+    margin:10px 32%;
+    font-size: 10pt;
+    cursor: pointer;
+}
+#btnHeaderForm:hover{
+    background-color: rgb(192, 59, 59);
+}
+#container-sec1 {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: block;
+    background-color: #009fff;
+    color: #ffffff;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+#txtTitleBt{
+    margin: 28px;
+    font-size: 18pt;
+}
+.txtTimers {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    margin:5px;
+    border: 2px solid #044166;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight:900;
+    font-size: 18pt;
+    text-align: center;
+}
+#divDays {
+    margin-right: 25px  ;
+}
+.divTimers{
+    position: relative;
+    text-align: center;
+    padding: 5;
+}
+.lblTimers{
+    font-family: 'Poppins', sans-serif;
+    color: #044166;
+    font-size: 9pt;
+}
+#btnApply {
+    background-color: #f36d5b;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    align-self: center;
+    width: 120px;
+    padding:5px;
+    text-align: center;   
+    margin-left: 100px; 
+    font-size: 10pt;
+    cursor: pointer;
+}
+.colon {
+    color: #ffffff;
+    text-align: center;   
+    font-size: 32pt;
+}
+#btnApply:hover{
+    background-color: rgb(192, 59, 59);
+}
+#container-sec2{
+    position: relative;
+    background-color: #ffffff;
+    width: 100vd;
+    height: auto;
+    max-width: 100%;
+}
+#lblAboutTitle {
+    display: block;
+    text-align: center;
+    margin:50px auto;
+    font-weight: 700;
+    font-size: 22pt;
+    font-family: 'Poppins', sans-serif;
+    color: #044166;
+}
+#lblAbout{
+display: block;
+width: 60%;
+text-align: center;
+margin:50px auto;
+font-size: 14pt;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+color: #444444;
+}
+#container-flexAbout{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+}
+.flex-item-about{
+    margin: 60px 40px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+}
+.flex-img-about{
+    display: block;
+    margin: auto;
+    width: auto;
+}
+.flex-About1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 10pt;
+    font-family: 'Poppins', sans-serif;
+    color: #044166;
+}
+.flex-About2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 10pt;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    color: #444444;
+}
+#container-sec3{
+    display: flex;
+    max-width: 100%;
+    background-image: url("./images/banner-sobre.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#container-flex-about2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#divAboutTitleWeb{
+    position: relative; 
+    float: left;
+    margin: 10% 1%;
+    width: 15%;
+    padding:5%;
+}
+#orangeBox {
+    position: relative;
+    width: 30%;
+    margin-bottom: 30px;
+    height: 10px;
+    background-color: #f36d5b;
+}
+#lblAboutWeb {
+    font-size: 30pt;
+    font-family: 'Poppins', sans-serif;
+    color: #044166;
+    font-weight: 900;
+    background-color: #ffffff;
+}
+
+#divAboutContent{
+    position: relative;
+    letter-spacing: 2px;
+    width: 45%;
+    font-size: 24pt;    
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    float: right;
+    margin: 10% 5%;
+    padding:2%;
+}
+
+#container-sec4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: #f3f4f4;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    margin: auto;
+    height: auto;
+}
+
+.divContSec4{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 4% 25%;
+    max-width: 100%;
+}
+.divImgP1 {
+    position: relative;
+    border: 2px solid #f36d5b ;
+    border-radius: 94px;
+    padding: 1px;
+    width:23.5%;
+    float: left;
+    max-width: 100%;
+}
+.imgP1 {
+    position: relative;
+    width: 99.5%;
+    max-width: 100%;
+}
+/*.divheadSec4 {
+    float: left;
+    position: relative;
+    width: 50%;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

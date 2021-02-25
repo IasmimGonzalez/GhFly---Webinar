@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>Gh</title>
+</head>
+
+<body>
+    <header>
+        <div id="HeaderTop">
+            <img id="imgHeaderTop" src="./images/logo.png">
+        </div>
+        <div id="headerContainer">
+            <div class="container-flex">
+                <div id="divHeaderTitle" class="flex-item">
+                    <p id="txtFirstTitle">
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa.
+                    </p>
+                    <p id="txtFirstSubtitle">
+                        Dia 10 de Março
+                    </p>
+                    <p id="txtSecondSubtitle">
+                        <font color="#0096db"> 04PM </font> America Central | <font color="#0096db">05PM</font> Colômbia
+                        | <font color="#0096db">07PM</font> Chile
+                    </p>
+
+                    <hr id="hr">
+
+                    <p id="txtThirdSubtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                    <div>
+                        <img id="ImgArrow" src="./images/efeito01.png">
+                    </div>
+                </div>
+                <div id="divHeaderForm" class="flex-item">
+                    <!--form-->
+                    <p id="txtTitleForm">
+                        <strong>Inscreva-se.</strong> Preencha o formulário abaixo:
+                    </p>
+                    <form id="applyForm">
+
+                        <input type="text" id="txtName" placeholder="Nome"> <br>
+                        <input type="text" id="txtSize" placeholder="Tamanho da Empresa"><br>
+                        <input type="email" id="txtEmail" placeholder="Email Corporativo"><br>
+                        <input type="number" id="txtTel" placeholder="Telefone"><br>
+                        <input type="text" id="txtPosition" placeholder="Cargo"><br>
+
+                        <select name="Country" id="ddlCountry">
+                            <option disabled selected value="0">País</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="Paraguay">Paraguay</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Estados Unidos">Estados Unidos</option>
+                            <option value="Ecuador">Ecuador</option>
+                            <option value="Guatemala">Guatemala</option>
+                            <option value="Nicaragua">Nicaragua</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="El Salvador">El Salvador</option>
+                            <option value="Honduras">Honduras</option>
+                        </select><br>
+
+                        <input type="submit" id="btnHeaderForm" onclick="submitForm(this);" value="Enviar">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div id="container-sec1">
+                <p id="txtTitleBt">
+                    O <strong>evento</strong> começa em
+                <div class="divTimers" id="divDays">
+                    <input type="text" disabled class="txtTimers" id="txtDays"> <br>
+                    <label class="lblTimers" for="txtDays">Dias</label>
+                </div>
+                <div class="divTimers">
+                    <input type="text" disabled class="txtTimers" id="txtHours"> <br>
+                    <label class="lblTimers" for="txtHours">Horas</label>
+                </div>
+                <label class="colon">:</label>
+                <div class="divTimers">
+                    <input type="text" disabled class="txtTimers" id="txtMinutes"> <br>
+                    <label class="lblTimers">Minutos</label>
+                </div>
+                <label class="colon">:</label>
+                <div class="divTimers">
+                    <input type="text" disabled class="txtTimers" id="txtSeconds"> <br>
+                    <label class="lblTimers">Segundos</label>
+                </div>
+                <button id="btnApply" onclick="setFocus()" type="button">Inscreva-se</button>
+                </p>
+            </div>
+        </section>
+        <section>
+            <div id="container-sec2">
+                <label id="lblAboutTitle">Sobre o Webinar</label>
+                <label id="lblAbout">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </label>
+                <div id="container-flexAbout">
+                    <div class="flex-item-about">
+                        <img class="flex-img-About" src="./images/icon01.png"> <br>
+                        <p class="flex-About1"> Duis aute irure dolor in reprehenderit in voluptate.</p>
+                        <p class="flex-About2">Excepteur sint occaecat cupidatat non proident</p>
+                    </div>
+                    <div class="flex-item-about">
+                        <img class="flex-img-About" src="./images/icon02.png"> <br>
+                        <p class="flex-About1"> Duis aute irure dolor in reprehenderit in voluptate.</p>
+                        <p class="flex-About2">Excepteur sint occaecat cupidatat non proident</p>
+                    </div>
+                    <div class="flex-item-about">
+                        <img class="flex-img-About" src="./images/icon03.png"> <br>
+                        <p class="flex-About1"> Duis aute irure dolor in reprehenderit in voluptate.</p>
+                        <p class="flex-About2">Excepteur sint occaecat cupidatat non proident</p>
+                    </div>
+                    <div class="flex-item-about">
+                        <img class="flex-img-About"" src=" ./images/icon04.png"> <br>
+                        <p class="flex-About1"> Duis aute irure dolor in reprehenderit in voluptate.</p>
+                        <p class="flex-About2">Excepteur sint occaecat cupidatat non proident</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="container-sec3">
+                <div class="container-flex-about2">
+                    <div id="divAboutTitleWeb">
+                        <div id="orangeBox"></div>
+                        <label id="lblAboutWeb">Sobre o <br> Webinar</label>
+                    </div>
+                    <div id="divAboutContent">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!--Parei aqui -->
+            <div id="container-sec4">
+                <div class="divContSec4">
+                    <div class="divImgP1">
+                        <img class="imgP1" src="./images/foto01.png">
+                    </div>
+                    <div>
+                        <div class="secTitle">
+                            <div class="divheadSec4">
+                                <label class="lblP1">Dolore magna aliqua. Ut enim.</label> <br>
+                                <label class="lblP2">Lorem ipsum dolor sit amet</label>
+                            </div>
+                            <div class="divheadSec4img">
+                                <img src="./images/logo-google.png">
+                            </div>
+                        </div>
+                        <div class="divSe4Content">
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="divContSec4">
+                    <div class="divImgP1">
+                        <img class="imgP1" src="./images/foto02.png">
+                    </div>
+                    <div class="secTitle">
+                        <div class="divheadSec4">
+                            <label class="lblP1">Dolore magna aliqua. Ut enim.</label> <br>
+                            <label class="lblP2">Lorem ipsum dolor sit amet</label>
+                        </div>
+                        <div class="divheadSec4img">
+                            <img src="./images/logo-google.png">
+                        </div>
+                    </div>
+                    <div class="divSe4Content">
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+                <div class="divContSec4">
+                    <div class="divImgP1">
+                        <img class="imgP1" src="./images/foto03.png">
+                    </div>
+                    <div class="secTitle">
+                        <div class="divheadSec4">
+                            <label class="lblP1">Dolore magna aliqua. Ut enim.</label> <br>
+                            <label class="lblP2">Lorem ipsum dolor sit amet</label>
+                        </div>
+                        <div class="divheadSec4img">
+                            <img src="./images/logo-google.png">
+                        </div>
+                    </div>
+                    <div class="divSe4Content">
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                         adipiscing elit, sed do eiusmod tempor 
+                         incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <!--Parei aqui -->
+        </section>
+    </header>
+</body>
+
+</html>
